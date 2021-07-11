@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.Animations;
+using UnityEngine.Animations;
 
 public class Player : MonoBehaviour
 {
@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     public GameObject Outside;
     public BoxCollider2D OutsideCollider;
 
-    public AnimatorController[] PlayerControllers;
+    public RuntimeAnimatorController[] PlayerControllers;
 
     public Sprite[] Chars;
 
